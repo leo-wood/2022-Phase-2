@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.Phase2.Api", "MSA.Phase2.Api\MSA.Phase2.Api.csproj", "{51D94B0E-17BB-49F2-9AB4-34FEF603604D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51D94B0E-17BB-49F2-9AB4-34FEF603604D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D94B0E-17BB-49F2-9AB4-34FEF603604D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D94B0E-17BB-49F2-9AB4-34FEF603604D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D94B0E-17BB-49F2-9AB4-34FEF603604D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EEC41E7-4E6C-4401-BB8D-1A35BDDC2D70}
+	EndGlobalSection
+EndGlobal
