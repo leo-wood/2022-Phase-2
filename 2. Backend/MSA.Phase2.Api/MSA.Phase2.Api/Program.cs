@@ -13,6 +13,10 @@ builder.Services.AddSwaggerDocument(options =>
     options.Version = "v1";
 });
 
+builder.Services.AddHttpClient("reddit", configureClient: client => {
+    client.BaseAddress = new Uri("https://www.reddit.com/dev/api");
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
