@@ -1,7 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 
 namespace MSA.Phase2.Api.Controllers
+
 {
+    /// <summary>
+    /// This is the weather forecast controller that comes as a default from the project template when creating
+    /// a new c# Web API application.
+    /// </summary>
+  
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -18,6 +24,11 @@ namespace MSA.Phase2.Api.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// This is the weather forecast controller that comes as a default from the project template when creating
+        /// a new c# Web API application.
+        /// </summary>
+       
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {

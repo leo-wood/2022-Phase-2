@@ -7,14 +7,23 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddSwaggerDocument(options =>
+{
+    options.DocumentName = "My Amazing API";
+    options.Version = "v1";
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    // app.UseSwagger();
+    app.UseOpenApi();
+    app.UseSwaggerUi3();
+    
 }
+
 
 app.UseHttpsRedirection();
 
